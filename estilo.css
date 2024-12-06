@@ -1,0 +1,138 @@
+/** Configuração e estilização do menu **/
+nav ul {
+   list-style: none;
+   padding: 10px;
+   margin: 0;
+   text-align: center;   
+}
+nav ul li {
+   display: inline;
+   margin-right: 20px;
+}
+nav ul li a {
+   color: white;
+   padding: 15px 10px;
+   text-decoration: none;
+   font-family: monospace;
+   font-size: large;
+}
+nav {
+   background-color: black;
+   height: 50px;
+   align-content: center;
+   overflow: hidden;
+}
+li a:hover {
+   color: yellowgreen;
+   text-decoration: underline;
+}
+/** tabela utilizada para organizar o formulario **/
+table {
+   margin: auto;
+   height: 200px;
+   background-color: rgba(0, 0, 0, 0.217);
+}
+tr {
+   border: 1px solid blue;
+}
+td {
+   border: 1px;
+}
+/** Configuração das imagens utilizada na pagina **/
+.img1 {
+   float: left;
+}
+.img2 {
+   float: right;
+}
+.img3 {
+   float: left;
+   margin-left: 100px;
+   text-align: center;
+   align-content: center;
+   height: 400px;
+   border: 3px solid black;
+   color: white;
+   background-color: rgb(52, 52, 52);
+}
+/** Estilização e comportamento das Divs utilizada**/
+.div {
+   width: 500px;
+   height: 140px;
+   background-color: white;
+   padding: 10px;
+   margin-left: 370px;
+   text-align: left
+}
+.form1 {
+   float: left;
+   width: 300px;
+   height: 130px;
+   padding: 10px;
+   margin-left: 200px;
+   text-align: center;
+   box-sizing: border-box;
+   background-color: rgba(186, 186, 186, 0.61);
+   transition: width 3s, height 3s;
+   overflow: hidden;
+}
+.form1:hover {
+   height: 250px;
+   background-color: red;
+   border: 2px solid aqua;
+   color: white;
+}
+.form1 b:hover {
+   font-size: 18px;
+   color: aqua;
+}
+.form2 {
+   width: 300px;
+   height: 155px;
+   padding: 10px;
+   margin-left: 800px;
+   margin-bottom: 30px;
+   text-align: center;
+   box-sizing: border-box;
+   background-color: rgba(186, 186, 186, 0.61);
+   transition: width 3s, height 3s;
+   overflow: hidden;
+}
+.form2:hover {
+   height: 350px;
+   background-color: orange;
+   border: 2px solid rgb(10, 4, 206);
+   color: white;
+}
+.form2 b:hover {
+   color: aqua;
+   font-size: 18px;
+}
+/** Estilização das tags **/
+p {
+   font-family: Arial, Helvetica, sans-serif
+}
+h1 {
+   color: black;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   text-align: center;
+}
+button:hover {
+   border-color: yellowgreen;
+   color: yellowgreen;
+}
+button {
+   margin-left: 460px;
+}
+label {
+   font-family: monospace;
+   font-size: 15px;
+   color: black;
+}
+body {
+   background-color: antiquewhite;
+}
+/** tamanho dos inputs do formulario**/
+.text-input {
+   width: 250px;
+}
